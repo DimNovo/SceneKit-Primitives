@@ -126,19 +126,19 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             x: -2.5, y: 0, z: -3)
         let treeNode1 = treeNode.clone()
         treeNode1.position = SCNVector3(
-            x: 0, y: 0, z: -6.75)
+            x: 5, y: 0, z: -0.75)
         let treeNode2 = treeNode.clone()
         treeNode2.position = SCNVector3(
-            x: -5, y: 0, z: -6.75)
+            x: 0, y: 0, z: -0.75)
         let treeNode3 = treeNode.clone()
         treeNode3.position = SCNVector3(
-            x: 0, y: 0, z: -5.25)
+            x: 5, y: 0, z: 0.75)
         let treeNode4 = treeNode.clone()
         treeNode4.position = SCNVector3(
-            x: -5, y: 0, z: -5.25)
+            x: 0, y: 0, z: 0.75)
         let treeNode5 = treeNode.clone()
         treeNode5.position = SCNVector3(
-            x: 0, y: 0, z: -6)
+            x: 5, y: 0, z: 0)
         
         treeNode.addChildNode(treeNode1)
         treeNode.addChildNode(treeNode2)
