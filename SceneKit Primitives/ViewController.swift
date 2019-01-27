@@ -60,7 +60,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         campusNode.addChildNode(buildingNode)
         campusNode.addChildNode(treeNode)
         
-        campusNode.runAction(.repeatForever(.rotateBy(x: 0, y: -.pi, z: 0, duration: 7)))
+        campusNode.runAction(.repeatForever(.rotateBy(x: 0, y: -.pi, z: 0, duration: 3)))
         
         return campusNode
     }
